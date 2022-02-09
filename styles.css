@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(150, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.resultado {
+  background-color: beige;
+  width: 500px;
+  height: 500px;
+}
+input {
+  border-radius: 50px;
+  padding: 7%;
+  margin: 10%;
+}
+.buscador {
+  display: flex;
+  justify-content: center;
+}
+aside {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 8px;
+  align-items: flex-start;
+}
+#boton-amarillo {
+  background: yellow;
+  width: 50px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 5px;
+}
+#boton-verde {
+  background: green;
+  width: 50px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 5px;
+}
+#boton-rojo {
+  background: red;
+  width: 50px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 5px;
+}
